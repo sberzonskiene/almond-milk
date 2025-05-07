@@ -24,7 +24,10 @@
 
 .logo {
     height: 30px;
-  }
+
+}
+
+
 
   .main-nav {
     display: flex;
@@ -38,17 +41,27 @@
     margin-bottom: 20rem;
     align-items: center;
 }
- 
+
+
  .navbar ul {
-     list-style: none;
-     display: flex;
-     gap: 25px;
+   display: flex;
+   gap: 15px;
+ }
+
+ .navbar a {
+    text-decoration: none;
+    color: rgb(120, 122, 102);
+    transition: 0.4s;
+    gap: 20px;
+}
+ .navbar a:hover {
+    color: rgb(7, 90, 28);
 }
 
 .navbar .actions {
     display: flex;
     gap: 20px;
-    align-items: center;
+    align-items: end;
 }
  
 .container2{
